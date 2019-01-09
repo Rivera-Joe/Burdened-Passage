@@ -11,7 +11,7 @@ using namespace std;
 int main() {
 
 	mainMenu();
-
+	Player p;
 
 
 

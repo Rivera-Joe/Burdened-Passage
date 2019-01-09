@@ -1,4 +1,13 @@
 ﻿  functions.cpp
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(11): error C2061: syntax error: identifier 'string'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C3646: 'getName': unknown override specifier
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2059: syntax error: '('
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2238: unexpected token(s) preceding ';'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(39): error C2011: 'Player': 'class' type redefinition
+  c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(7): note: see declaration of 'Player'
   Game.cpp
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(11): error C2061: syntax error: identifier 'string'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C3646: 'getName': unknown override specifier
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2059: syntax error: '('
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2238: unexpected token(s) preceding ';'
   Generating Code...
-  Burdened Passage.vcxproj -> C:\Users\shels\OneDrive\Documents\GitHub\Burdened-Passage\Burdened Passage\Debug\Burdened Passage.exe

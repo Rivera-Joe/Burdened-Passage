@@ -18,7 +18,7 @@ void mainMenu() {
 
 	switch (MenuChoice) {
 	case 1:
-		startGame();
+		//startGame();
 		break;
 	case 2:
 		//send player to new function
@@ -34,3 +34,45 @@ void startGame() {
 	cout << "Class: Warrior";
 	//Extra stuff
 }
+//******************* Classes *********
+
+class Player {
+private:
+	string name;
+	int hp;
+	int damage;
+
+public:
+	//name
+	void setName(string cName) {
+
+		name = cName;
+	}
+
+	string getName() {
+		
+		return name;
+	}
+
+	//hp
+	void setHP(int health) {
+
+		hp = health;
+	}
+
+	int getHP() {
+
+		return hp;
+	}
+
+	//damage
+	void setDamage(int d) {
+		damage = d;
+	}
+
+	int getDamage() {
+
+		return damage;
+	}
+
+};

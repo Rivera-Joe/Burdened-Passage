@@ -4,6 +4,23 @@
 
 void mainMenu();
 
+class Player{
+
+public:
+	//name
+	void setName(string cName);
+	string getName();
+
+	//hp
+	void setHP(int health);
+	int getHP();
+
+	//damage
+	void setDamage(int d);
+	int getDamage();
+	
+};
+
 
 
 
