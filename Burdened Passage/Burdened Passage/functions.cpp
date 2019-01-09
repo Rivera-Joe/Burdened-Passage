@@ -1,12 +1,16 @@
 #include "functions.h"
 #include <string>
 #include <iostream>
+#include <fstream>
+
 
 using namespace std;
 
 void mainMenu() {
-	string name;
-	cin >> name;
+	
+	
+	
+
 	int MenuChoice;
 
 
@@ -18,7 +22,7 @@ void mainMenu() {
 
 	switch (MenuChoice) {
 	case 1:
-		//startGame();
+		startGame();
 		break;
 	case 2:
 		//send player to new function
@@ -28,12 +32,101 @@ void mainMenu() {
 
 	}
 }
+
+//**********game functions*********
+
+//start game
 void startGame() {
-	cout << "Name: Arthur Morgan";
-	cout << "Race: Human";
-	cout << "Class: Warrior";
+	cout << "Please enter a name:\n";
+	Player p;
+
+	string plrName;
+	cin >> plrName;
+
+	p.setName(plrName);
+
 	//Extra stuff
 }
+
+//load game
+
+void loadGame() {
+
+	string fileName;
+	cout << "\n\nWhat was the name of your file?\n";
+	cin >> fileName;
+	ifstream loadFile;
+	loadFile.open(fileName + ".txt");
+	string line;
+	if (loadFile.is_open) {
+		string name;
+		int hp;
+		int damage;
+		loadFile >> name;
+		loadFile >> hp;
+		loadFile >> damage;
+		
+		//loadfile brings in stats
+		loadFile.close();
+	}
+	
+	else {
+		cout << "\nUnable to locate file.\n"
+			<< "What would you like to do?: \n"
+			<< "1 - Search another name\n"
+			<< "2 - Start new game\n"
+			<< "3 - Exit game\n";
+		int choice;
+		cin >> choice;
+		switch (choice) {
+		case 1:
+			loadGame();
+			break;
+		case 2:
+			startGame();
+			break;
+		case 3:
+			break; // may need to look at this one. should end the program
+		}
+	}
+
+
+
+
+
+}
+
+// save game
+
+void saveGame() {
+
+	cout << "What would you like to name your save file?";
+	string saveName;
+	cin >> saveName;
+	ofstream saveFile;
+
+
+	saveFile.open(saveName + ".txt");
+	if(saveFile.is_open){
+		string name;
+		int hp;
+		int damage;
+
+		saveFile << name;
+		saveFile << hp;
+		saveFile << damage;
+
+		saveFile.close();
+	}
+	else {
+		cout << "Unable to save game";
+		// needs more code here********************************************
+	}
+}
+
+
+
+
 //******************* Classes *********
 
 class Player {
@@ -76,3 +169,4 @@ public:
 	}
 
 };
+

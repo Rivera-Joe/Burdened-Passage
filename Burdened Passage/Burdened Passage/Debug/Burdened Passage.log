@@ -1,13 +1,25 @@
 ﻿  functions.cpp
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(11): error C2061: syntax error: identifier 'string'
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C3646: 'getName': unknown override specifier
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2059: syntax error: '('
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2238: unexpected token(s) preceding ';'
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(39): error C2011: 'Player': 'class' type redefinition
-  c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(7): note: see declaration of 'Player'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(13): error C2061: syntax error: identifier 'string'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C3646: 'getName': unknown override specifier
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C2059: syntax error: '('
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C2238: unexpected token(s) preceding ';'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(46): error C2660: 'Player::setName': function does not take 1 arguments
+  c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(13): note: see declaration of 'Player::setName'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(61): error C3867: 'std::basic_ofstream<char,std::char_traits<char>>::is_open': non-standard syntax; use '&' to create a pointer to member
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(63): error C2672: 'getline': no matching overloaded function found
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(63): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ofstream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\string(160): note: see declaration of 'std::getline'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(63): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\string(149): note: see declaration of 'std::getline'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(63): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::ofstream'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\string(129): note: see declaration of 'std::getline'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(63): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\string(76): note: see declaration of 'std::getline'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.cpp(101): error C2011: 'Player': 'class' type redefinition
+  c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(9): note: see declaration of 'Player'
   Game.cpp
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(11): error C2061: syntax error: identifier 'string'
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C3646: 'getName': unknown override specifier
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2059: syntax error: '('
-c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(12): error C2238: unexpected token(s) preceding ';'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(13): error C2061: syntax error: identifier 'string'
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C3646: 'getName': unknown override specifier
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C2059: syntax error: '('
+c:\users\shels\onedrive\documents\github\burdened-passage\burdened passage\burdened passage\functions.h(14): error C2238: unexpected token(s) preceding ';'
   Generating Code...

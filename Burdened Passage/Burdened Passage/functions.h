@@ -4,6 +4,8 @@
 
 void mainMenu();
 
+void startGame();
+
 class Player{
 
 public:
@@ -21,7 +23,11 @@ public:
 	
 };
 
+// load game function
+void loadGame();
 
+// save game function
+void saveGame();
 
 
 
